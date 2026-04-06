@@ -1,0 +1,108 @@
+/* Nullstill */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica;
+}
+/* Hero-scroll */
+.hero {
+    height: 200vh;
+    background-image:  url(senja.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+/* tekst som beveger seg */
+.hero h1 {
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+
+
+
+    margin: 20px;
+    padding: 15px 25px;
+
+    color: white;
+    font-size: 30px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+
+}
+
+
+
+/* Generell stil */
+body{
+    font-family: Arial, Helvetica;
+    background-color: #f4f4f4;
+    margin: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Meny */
+nav{
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Overskrifter */
+h1{
+    color: #444;
+}
+
+h2 {
+    color: #444;
+}
+
+/* Paragrafer */
+
+p:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Bilder */
+img {
+    max-width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Lenker */
+a {
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(141, 9, 9);
+}
+
+a:hover{
+    color:darkblue;
+}
+
+/* Forsøk på å lage klasser */
+
+.boks {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
